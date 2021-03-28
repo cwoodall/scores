@@ -1,7 +1,0 @@
-[
-  {
-    "in": "work-song.mscx",
-    "out": "work-song-coloured.pdf",
-    "plugin": "colornotes.qml"
-  }
-]

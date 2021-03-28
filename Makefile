@@ -31,10 +31,10 @@ all: $(PDFS) $(MP3S) $(JOB_OUTS)
 	# a full clean of the directory
 	# 
 	# CAVEAT: This does not work well for parrallel builds using make
-	touch $@
+	touch $@.tmp
 	cd $(dir $(abspath $<)) && $(MSCORE) -j $(notdir $<) 
-	find "." -type f -newer "$@" >> $@
-
+	find "$(dir $(abspath $<))" -type f -newer "$@.tmp" >> $@
+	rm $@.tmp
 
 .PHONY: clean
 clean:
