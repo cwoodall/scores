@@ -24,12 +24,11 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      - name: Install musescore 3
+      - name: Install musescore 3.6
         run: |
           sudo apt install flatpak
           sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-          sudo apt-get install qt5-default
-          sudo flatpak install flathub org.musescore.MuseScore          
+          sudo flatpak install -y --noninteractive flathub org.musescore.MuseScore          
       # Runs a single command using the runners shell
       - name: Run Makefile to make PDFs, MP3s, etc
         uses: GabrielBB/xvfb-action@v1
