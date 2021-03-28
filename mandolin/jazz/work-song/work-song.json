@@ -1,0 +1,8 @@
+[
+    {
+      "in": "work-song.mscx",
+      "out": "work-song-job.pdf",
+      "plugin": "colornotes.qml"
+    }
+]
+  
