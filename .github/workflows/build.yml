@@ -24,7 +24,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      - name: Install musescore 3.6
+      - name: Install musescore 3
         run: |
           sudo add-apt-repository ppa:mscore-ubuntu/mscore3-stable
           sudo apt-get update
