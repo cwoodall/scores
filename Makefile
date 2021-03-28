@@ -29,6 +29,8 @@ all: $(PDFS) $(MP3S) $(JOB_OUTS)
 	# Add to it a list of any files which were created in this
 	# directory after the job is done running. This allows for
 	# a full clean of the directory
+	# 
+	# CAVEAT: This does not work well for parrallel builds using make
 	touch $@
 	cd $(dir $(abspath $<)) && $(MSCORE) -j $(notdir $<) 
 	find "." -type f -newer "$@" >> $@
