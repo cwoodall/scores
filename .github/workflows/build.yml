@@ -29,6 +29,8 @@ jobs:
           sudo apt install flatpak
           sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
           sudo flatpak install -y --noninteractive flathub org.musescore.MuseScore          
+      - name: Clean
+        run: make clean
       # Runs a single command using the runners shell
       - name: Run Makefile to make PDFs, MP3s, etc
         uses: GabrielBB/xvfb-action@v1

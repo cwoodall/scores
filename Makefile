@@ -25,12 +25,12 @@ all: $(PDFS) $(MP3S) $(JOB_OUTS)
 
 .SECONDARY:%.job
 %.job: %.json
-	# Create a file at the beginning of the job
-	# Add to it a list of any files which were created in this
-	# directory after the job is done running. This allows for
-	# a full clean of the directory
-	# 
-	# CAVEAT: This does not work well for parrallel builds using make
+# Create a file at the beginning of the job
+# Add to it a list of any files which were created in this
+# directory after the job is done running. This allows for
+# a full clean of the directory
+# 
+# CAVEAT: This does not work well for parrallel builds using make
 	touch $@.tmp
 	cd $(dir $(abspath $<)) && $(MSCORE) -j $(notdir $<) 
 	find "$(dir $(abspath $<))" -type f -newer "$@.tmp" >> $@
@@ -38,7 +38,7 @@ all: $(PDFS) $(MP3S) $(JOB_OUTS)
 
 .PHONY: clean
 clean:
-	# Remove all files referenced by job files
+# Remove all files referenced by job files
 	-for job_file in ${JOB_OUTS}; do cat $$job_file | xargs rm; done
 	-rm -r $(JOB_OUTS)
 	-rm -r $(PDFS) $(MP3S)

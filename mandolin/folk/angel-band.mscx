@@ -2094,35 +2094,10 @@
               <string>3</string>
               </Note>
             </Chord>
-          <Chord>
+          <Rest>
             <linkedMain/>
             <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              <linkedMain/>
-              </Articulation>
-            <Note>
-              <linkedMain/>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>66</pitch>
-              <tpc>20</tpc>
-              <fret>4</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>75</pitch>
-              <tpc>23</tpc>
-              <fret>6</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
+            </Rest>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -4206,40 +4181,11 @@
               <string>3</string>
               </Note>
             </Chord>
-          <Chord>
+          <Rest>
             <linked>
               </linked>
             <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              <linked>
-                </linked>
-              </Articulation>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>66</pitch>
-              <tpc>20</tpc>
-              <fret>4</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>75</pitch>
-              <tpc>23</tpc>
-              <fret>6</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
+            </Rest>
           <Chord>
             <linked>
               </linked>
