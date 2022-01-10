@@ -203,6 +203,7 @@
           <SystemText>
             <swing unit="eighth" ratio= "60"/>
             <style>Tempo</style>
+            <offset x="-7.86546" y="-4.4035"/>
             <text>Swing</text>
             </SystemText>
           <Chord>
@@ -256,10 +257,6 @@
             <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>wiggleVibratoLargeFaster</subtype>
-              <linkedMain/>
-              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>83</pitch>
@@ -267,6 +264,10 @@
               <fret>7</fret>
               <string>0</string>
               </Note>
+            <Tremolo>
+              <subtype>r32</subtype>
+              <linkedMain/>
+              </Tremolo>
             </Chord>
           <Chord>
             <linkedMain/>
@@ -313,10 +314,6 @@
             <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>wiggleVibratoLargeFaster</subtype>
-              <linkedMain/>
-              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>87</pitch>
@@ -324,6 +321,10 @@
               <fret>11</fret>
               <string>0</string>
               </Note>
+            <Tremolo>
+              <subtype>r32</subtype>
+              <linkedMain/>
+              </Tremolo>
             </Chord>
           <Chord>
             <linkedMain/>
@@ -392,10 +393,6 @@
             <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>wiggleVibratoLargeFaster</subtype>
-              <linkedMain/>
-              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>83</pitch>
@@ -403,6 +400,10 @@
               <fret>7</fret>
               <string>0</string>
               </Note>
+            <Tremolo>
+              <subtype>r32</subtype>
+              <linkedMain/>
+              </Tremolo>
             </Chord>
           <Chord>
             <linkedMain/>
@@ -475,10 +476,6 @@
             <linkedMain/>
             <dots>1</dots>
             <durationType>half</durationType>
-            <Articulation>
-              <subtype>wiggleVibratoLargeFaster</subtype>
-              <linkedMain/>
-              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>71</pitch>
@@ -486,6 +483,10 @@
               <fret>9</fret>
               <string>2</string>
               </Note>
+            <Tremolo>
+              <subtype>r32</subtype>
+              <linkedMain/>
+              </Tremolo>
             </Chord>
           </voice>
         </Measure>
@@ -2227,11 +2228,6 @@
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>wiggleVibratoLargeFaster</subtype>
-              <linked>
-                </linked>
-              </Articulation>
             <Note>
               <linked>
                 </linked>
@@ -2240,6 +2236,11 @@
               <fret>7</fret>
               <string>0</string>
               </Note>
+            <Tremolo>
+              <subtype>r32</subtype>
+              <linked>
+                </linked>
+              </Tremolo>
             </Chord>
           <Chord>
             <linked>
@@ -2289,11 +2290,6 @@
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>wiggleVibratoLargeFaster</subtype>
-              <linked>
-                </linked>
-              </Articulation>
             <Note>
               <linked>
                 </linked>
@@ -2302,6 +2298,11 @@
               <fret>11</fret>
               <string>0</string>
               </Note>
+            <Tremolo>
+              <subtype>r32</subtype>
+              <linked>
+                </linked>
+              </Tremolo>
             </Chord>
           <Chord>
             <linked>
@@ -2376,11 +2377,6 @@
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>wiggleVibratoLargeFaster</subtype>
-              <linked>
-                </linked>
-              </Articulation>
             <Note>
               <linked>
                 </linked>
@@ -2389,6 +2385,11 @@
               <fret>7</fret>
               <string>0</string>
               </Note>
+            <Tremolo>
+              <subtype>r32</subtype>
+              <linked>
+                </linked>
+              </Tremolo>
             </Chord>
           <Chord>
             <linked>
@@ -2463,11 +2464,6 @@
               </linked>
             <dots>1</dots>
             <durationType>half</durationType>
-            <Articulation>
-              <subtype>wiggleVibratoLargeFaster</subtype>
-              <linked>
-                </linked>
-              </Articulation>
             <Note>
               <linked>
                 </linked>
@@ -2476,6 +2472,11 @@
               <fret>9</fret>
               <string>2</string>
               </Note>
+            <Tremolo>
+              <subtype>r32</subtype>
+              <linked>
+                </linked>
+              </Tremolo>
             </Chord>
           </voice>
         </Measure>
