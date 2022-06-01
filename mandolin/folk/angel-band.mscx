@@ -307,7 +307,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <root>19</root>
+            <root>20</root>
             <offset x="-0.4" y="-2.5"/>
             </Harmony>
           <Chord>
@@ -386,7 +386,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <root>18</root>
+            <root>19</root>
             <offset x="-0.4" y="-2.5"/>
             </Harmony>
           <Chord>
