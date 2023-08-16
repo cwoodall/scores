@@ -24,7 +24,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      - name: Install musescore 3.6
+      - name: Install musescore 4.1
         run: |
           sudo apt install flatpak
           sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
@@ -40,7 +40,7 @@ jobs:
       - name: Add Commit and Push
         run: |
           git config --global user.email "chris.j.woodall+musescorebot@gmail.com"
-          git config --global user.name "MuseScore 3 Bot"
+          git config --global user.name "MuseScore 4 Bot"
           git add .
           git commit -am "Updating pdfs and mp3s"
           git push

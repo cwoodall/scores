@@ -1,0 +1,6 @@
+[
+    {
+        "in": "Rise.mscz",
+        "out":["Rise.pdf", ["Rise (part for ", ").pdf"]] 
+    }
+]
